@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Cadastrar Animal</title>
+	</head>
+	<body>
+		<form action="CadastrarAnimal" method="POST"
+		<fieldset>
+			<legend>Dados do Animal</legend>
+  <table cellspacing="10">
+  <tr>
+  <td>
+			<label for="nome">Nome: </label>
+  </td>
+  <td align="left">
+			<input type="text" name="email">
+  </td>
+  </tr>
+  <tr>
+  <td>
+			<label>Nascimento: </label>
+  </td>
+  <td align="left">
+			<input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+			<input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+			<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+  </td>
+  </tr>
+  <tr>
+  <td>
+    <label for="caracteristicas">Características: </label>
+  </td>
+  <td align="left">
+			<input type="text" name="caracteristicas" size="2" maxlength="50"> 
+  </td>
+  </tr>
+ </table>
+</fieldset>
+	<br>
+			<input type="button" value="Cadastrar">
+		
+	</body>
+</html>
