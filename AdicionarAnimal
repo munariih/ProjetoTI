@@ -15,6 +15,7 @@
   </td>
   <td align="left">
 			<input type="text" name="email">
+			//Adiciona caixa de texto para inserir o nome
   </td>
   </tr>
   <tr>
@@ -25,6 +26,7 @@
 			<input type="text" name="dia" size="2" maxlength="2" value="dd"> 
 			<input type="text" name="mes" size="2" maxlength="2" value="mm"> 
 			<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+			//Adiciona a caixa de data (dd/mm/aaaa)
   </td>
   </tr>
   <tr>
@@ -33,12 +35,14 @@
   </td>
   <td align="left">
 			<input type="text" name="caracteristicas" size="2" maxlength="50"> 
+			//Adiciona outra caixa de texto para inserir caracteisticas ate 50 caracteres
   </td>
   </tr>
  </table>
 </fieldset>
 	<br>
 			<input type="button" value="Cadastrar">
+			//Adiciona botão para validar, Cadastrar
 		
 	</body>
 </html>
