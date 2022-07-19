@@ -39,6 +39,8 @@
 </fieldset>
 	<br>
 			<input type="button" name="botao-editar" value="Editar">
+			//Adiciona o botão editar
 			<input type="button" name="botao-excluir" value="Excluir cadastro">
+			//Adiciona o botão excluir para excluir o cadastro e os dados dele
 	</body>
 </html>
